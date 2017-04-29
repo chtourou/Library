@@ -44,7 +44,7 @@ public class Author {
         this.pays = pays;
     }
 
-    public String describeYourSelf() {
+    public String show_info() {
         return "id: " + id + " name: " + name + " married: " + married + " pays: " + pays;
     }
 }

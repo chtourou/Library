@@ -56,6 +56,6 @@ public class Book {
 
     public String describeYourSelf() {
         return "Id: " + id + " name: " + name + " date: " + date + " nbCopy: " + nbCopies
-                + "\n\tAuthor: " + author.describeYourSelf();
+                + "\n\tAuthor: " + author.show_info();
     }
 }
