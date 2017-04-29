@@ -1,22 +1,16 @@
-/**
- * Created by U-Poste on 29/04/2017.
- */
+
 public class Client {
     private int id;
     private String name;
-    private long cin;
+    private String cin;
     private String adress;
 
-    public Client(int id, String name, long cin, String adress) {
 
+    public Client(int id, String name, String cin, String adress) {
         this.id = id;
         this.name = name;
         this.cin = cin;
         this.adress = adress;
-
-    }
-
-    public Client(int id, String name, String cin, String adress) {
     }
 
     public int getId() {
@@ -35,11 +29,11 @@ public class Client {
         this.name = name;
     }
 
-    public long getCin() {
+    public String getCin() {
         return cin;
     }
 
-    public void setCin(long cin) {
+    public void setCin(String cin) {
         this.cin = cin;
     }
 

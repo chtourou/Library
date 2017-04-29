@@ -17,9 +17,9 @@ public class EntryPoint {
         //CLIENT
 
         ArrayList<Client> listClients = new ArrayList<>();
-        Client c1 = new Client(1, "zied", 12345, "sousse");
+        Client c1 = new Client(1, "zied", "12345", "sousse");
         listClients.add(c1);
-        Client c2 = new Client(2, "bilel", 99999, "tunis");
+        Client c2 = new Client(2, "bilel", "99999", "tunis");
         listClients.add(c2);
 
         Library library = new Library(listBooks, listClients);
